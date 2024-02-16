@@ -319,7 +319,7 @@ async def gagahkah(client: Client, message: Message):
         "What The",
         "What The F",
         "What The F Brah",
-        "[𝗪𝗵𝗮𝘁 𝗧𝗵𝗲 𝗙 𝗕𝗿𝗮𝗵](https://telegra.ph//file/f3b760e4a99340d331f9b.jpg)",
+        "[💘 #𝐁ᴏʟᴀ 𝐓ʜᴀ...🤣🤣 #ᴊᴄʙ 𝐊ᴏ #ᴋʜᴏᴅɴᴀ 𝐀ᴜʀ #_4sᴛ 𝐊ᴏ #ᴄʜʜᴏᴅɴᴀ 😎 𝐀ᴀᴄʜᴇ 𝐒ᴇ 𝐀ᴀᴛᴀ 𝐇ᴀɪ...👻](https://telegra.ph/file/f5b0e7f2bd95153968e87.jpg)",
     ]
     for i in animation_ttl:
 
