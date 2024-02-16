@@ -24,7 +24,7 @@ else:
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
         f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝐂ʜᴀᴛ 𝐆ʀᴘ(つ .•́ _ʖ •̀.)つ](t.me/II_4ST_FIGHTER_ll)\n"
         f"├• **𝐔ᴘᴅᴀᴛᴇs**: [4sᴛ 𝐎ғғɪᴄɪᴀʟ](t.me/I_M_FIGHTER)\n"
-        f"└• **𝐒ᴜᴘᴘᴏʀᴛᴇʀ**: [𝐌ɪɴᴅ𝐆ᴀᴍᴇʀ](t.me/ll4st_MIND_GAMERII)"        
+        f"└• **𝐒ɪʀ**: [𝐌ɪɴᴅ𝐆ᴀᴍᴇʀ](t.me/ll4st_MIND_GAMERII)"        
     )
 
 @Client.on_message(
