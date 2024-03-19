@@ -11,24 +11,23 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://telegra.ph/file/f5b0e7f2bd95153968e87.jpg"
+alive_logo = ALIVE_PIC or "https://telegra.ph/file/709035756bd60429aaa27.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 👻_ #_4sᴛ 𝐎ғғɪᴄɪᴀʟ_💘 **\n\n"
-        f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
-        f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
-        f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
-        f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [𝐂ʜᴀᴛ 𝐆ʀᴘ(つ .•́ _ʖ •̀.)つ](t.me/II_4ST_FIGHTER_ll)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [4sᴛ 𝐎ғғɪᴄɪᴀʟ](t.me/I_M_FIGHTER)\n"
-        f"└• **𝐒ɪʀ**: [𝐌ɪɴᴅ𝐆ᴀᴍᴇʀ](t.me/ll4st_MIND_GAMERII)"        
+        f"** ✘ MADMAX USERBOT ✘**\n\n"
+        f"❏ **νєяѕισи**: `2.1`\n"
+        f"├• **υρтιмє**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
+        f"├• **ρутнσи**: `{python_version()}`\n"
+        f"├• **ρуяσgяαм**: `{__version__}`\n"
+        f"├• **ѕυρρσят**: [Click](t.me/VOICEOFHEART)\n"
+        f"├• **¢нαииєℓ**: [Click](t.me/STATUSDAIRY2)"       
     )
 
 @Client.on_message(
-    filters.command(["alive", "shivop"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["alive", "awake"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
     xx = await message.reply_text("⚡️")
@@ -51,18 +50,10 @@ async def alive(client: Client, message: Message):
     except BaseException:
         await xx.edit(xd, disable_web_page_preview=True)
 
-@Client.on_message(filters.command("repo", ".") & filters.me)
-async def repo(bot: Client, message: Message):
-    await message.edit("⚡, 💘, ❄, ✨")
-    await asyncio.sleep(1)
-    await message.edit("Fetching Source Code.....")
-    await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/itzshukla/STRANGER-USERBOT2.0\nFork & Give an ⭐")
-
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/itzshukla")
+    await message.edit("https://t.me/about_aryan13")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
@@ -179,4 +170,4 @@ add_command_help(
     [
         [".restart", "You are retarded if you do not know what this does."],
     ],
-)
+   )
